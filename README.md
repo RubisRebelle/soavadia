@@ -7,7 +7,7 @@ The database contains much information such as the Clients' information, the emp
 ## Model
 This is the database model schema of this project
 <p align="left">
-  <img src="https://github.com/Herizoran/soavadia/tree/main/images/Soavadia_schema.jpg" />
+  <img src="https://github.com/Herizoran/soavadia/blob/main/images/Soavadia_schema.jpg" />
 </p>
 
 ## Prerequisites
