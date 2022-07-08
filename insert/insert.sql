@@ -1002,3 +1002,15 @@ insert into client (nom, prenom, telephone, cin) values
 	('TUMPANE', 'Naelle', '0344289491', '503 368 741 107'),
 	('DEBENHAM', 'Anaelle', '0385531297', '443 636 880 107'),
 	('LOUDON', 'Reserves', '0385689007', '100 812 900 102');
+
+
+-- TYPE PAIEMENT TABLE
+insert into type_payement (type_payement) values 
+	('Mobile Money'), ('Espece');
+
+-- INCIDENT TABLE
+insert into incident (description_incident, depense_incident) values 
+	('Accident', 200000),
+	('Panne technique', 150000),
+	('Eboullement', 30000),
+	('Route bloquee', 20000);
