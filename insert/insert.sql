@@ -1,4 +1,19 @@
 \c soavadia;
+-- RECEPTIONISTE TABLE
+insert into receptionniste (nom_receptionniste, prenom_receptionniste, adresse_receptionniste, cin_receptionniste, telephone_receptionniste, salaire_receptionniste) values
+	('Ana', 'Johns', 'ITR 130 Arivonimamo', '124 135 070 110', '0342891796', 300000),
+	('Pauline', 'Roso', 'IKT 1300 Imerintsiatosika', '125 135 100 090', '0343094896', 350000),
+	('Kone', 'Andrianjarisoa', 'IJ 89 Itaosy', '125 025 100 260', '0321994896', 250000),
+	('Cara', 'Arinalamalala', 'LOT 125 Itaosy', '117 125 020 290', '032702094896', 400000),
+	('Sophie', 'Ramarolahy', 'ITE 89 Itaosy', '125 025 100 260', '0321004856', 250000);
+
+-- CHAUFFEUR TABLE
+insert into chauffeur (nom_chauffeur, prenom_chauffeur, adresse_chauffeur, cin_chauffeur, telephone_chauffeur, salaire_chauffeur)
+	('Kallo', 'Abraham', 'ITR 30 Ivato', '124 135 070 110', '0322891796', 400000),
+	('Toky', 'Rabeson', 'IJ 350 Iavoloha', '117 024 010 200', '0343151700', 350000),
+	('Claudio', 'Ramarolahy', 'OTR 2256 Ivandry', '125 025 150 001', '0336245422', 350000),
+	('Adolf', 'Manjaka', 'AKG 25 Ivato', '114 125 010 110', '0322818796', 400000),
+	('Teo', 'Rakoto', 'LOT 300 Analakely', '127 025 110 260', '0346971700', 500000);
 
 -- CLIENT TABLE
 insert into client (nom, prenom, telephone, cin) values 
