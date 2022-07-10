@@ -1026,7 +1026,7 @@ insert into ville(id_ville,nom_ville) values
 	(7,Antsiranana);
 
 --SAISON TABLE
-insert into saison(evenement,coeff_saison) values
+insert into saison(evenement,coef_saison) values
     (reguliere,1),
     (noel,1.3),
 	(nouvel_an,1.4),
