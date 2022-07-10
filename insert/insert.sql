@@ -1022,8 +1022,7 @@ insert into ville(id_ville,nom_ville) values
 	(3,'Toamasina'),
 	(4,'Fianarantsoa'),
 	(5,'Mahajanga'),
-	(6,'Toliara'),
-	(7,'Antsiranana');
+	(6,'Antsiranana');
 
 
 -- TRAJET TABLE
@@ -1032,26 +1031,21 @@ insert into trajet (frais_de_base, prix_carburant, id_ville_depart, id_ville_arr
 	(25000, 157000, 1, 3),
 	(30000, 185000, 1, 4),
 	(40000, 252000, 1, 5),
-	(55000, 410000, 1, 6),
-	(100000, 493000, 1, 7),
+	(100000, 493000, 1, 6),
 	(15000, 75000, 2, 1),
 	(25000, 157000, 3, 1),
 	(30000, 185000, 4, 1),
 	(40000, 252000, 5, 1),
-	(55000, 410000, 6, 1),
-	(100000, 493000, 7, 1);
+	(100000, 493000, 6, 1);
 
 --SAISON TABLE
 insert into saison(evenement,coef_saison) values
 	('reguliere',1),
-	('noel',1.3),
-	('nouvel_an',1.4),
-	('paques',1.2),
-	('fete_independance',1.1),
-	('grande_vacance',1.2);
+	('fete',1.2),
+	('vacances',1.3);
 
 -- SAISON OFFRE
 insert into offre (label_offre, nombre_place, coef_offre) values
 	('Lite', 16, 1),
-	('Premium', 16, 1.2),
-	('VIP', 12, 1.3);
+	('Premium', 14, 1.2),
+	('VIP', 8, 1.3);
