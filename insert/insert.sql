@@ -1049,3 +1049,21 @@ insert into offre (label_offre, nombre_place, coef_offre) values
 	('Lite', 16, 1),
 	('Premium', 14, 1.2),
 	('VIP', 8, 1.3);
+
+insert into voiture (immatriculation, fonctionnel, id_offre) values
+	('6761 TBB', true, 1),
+	('8558 TBL', true, 1),
+	('3684 TBG', true, 1),
+	('3204 TBA', true, 1),
+	('1306 TBW', true, 1),
+	('2545 TBP', true, 1),
+	('0976 TBN', true, 1),
+	('6578 TBA', true, 2),
+	('7824 TBC', true, 2),
+	('1615 TBK', true, 2),
+	('3586 TBC', true, 2),
+	('8787 TBM', true, 2),
+	('8593 TBB', true, 2),
+	('0128 TBA', true, 3),
+	('7632 TBN', true, 3),
+	('2294 TBD', true, 3);
