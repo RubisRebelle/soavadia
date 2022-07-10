@@ -1017,19 +1017,19 @@ insert into incident (description_incident, depense_incident) values
 
 --VILLE TABLE
 insert into ville(id_ville,nom_ville) values
-    (1,Antananarivo),
-	(2,Antsirabe),
-	(3,Toamasina),
-	(4,Fianarantsoa),
-	(5,Mahajanga),
-	(6,Toliara),
-	(7,Antsiranana);
+	(1,'Antananarivo'),
+	(2,'Antsirabe'),
+	(3,'Toamasina'),
+	(4,'Fianarantsoa'),
+	(5,'Mahajanga'),
+	(6,'Toliara'),
+	(7,'Antsiranana');
 
 --SAISON TABLE
 insert into saison(evenement,coef_saison) values
-    (reguliere,1),
-    (noel,1.3),
-	(nouvel_an,1.4),
-	(paques,1.2),
-	(fete_independance,1.1),
-	(grande_vacance,1.2);
+	('reguliere',1),
+	('noel',1.3),
+	('nouvel_an',1.4),
+	('paques',1.2),
+	('fete_independance',1.1),
+	('grande_vacance',1.2);
