@@ -1,103 +1,4 @@
 \c soavadia;
--- RECEPTIONISTE TABLE
-insert into receptionniste (nom_receptionniste, prenom_receptionniste, adresse_receptionniste, cin_receptionniste, telephone_receptionniste, salaire_receptionniste) values
-	('Ana', 'Johns', 'ITR 130 Arivonimamo', '124 135 070 110', '0342891796', 300000),
-	('Pauline', 'Roso', 'IKT 1300 Imerintsiatosika', '125 135 100 090', '0343094896', 350000),
-	('Kone', 'Andrianjarisoa', 'IJ 89 Itaosy', '125 025 100 260', '0321994896', 250000),
-	('Cara', 'Arinalamalala', 'LOT 125 Itaosy', '117 125 020 290', '032702094896', 400000),
-	('Sophie', 'Ramarolahy', 'ITE 89 Itaosy', '125 025 100 260', '0321004856', 250000),
-	('Vickers', 'Gladys', 'Cottonwood', '117 125 025 280', '033 24 552 58', 400000),
-	('Wilds', 'Selia', 'Basil', '117 125 025 281', '033 24 552 58', 400000),
-	('Downes', 'Leora', 'Sloan', '117 125 025 282', '033 24 552 58', 400000),
-	('Keedwell', 'Chad', 'Mayer', '117 125 025 283', '033 24 552 58', 400000),
-	('Mingard', 'Tiffi', 'Bluestem', '117 125 025 284', '033 24 552 58', 400000),
-	('Coneley', 'Aubrette', '4th', '117 125 025 285', '033 24 552 58', 400000),
-	('Feaks', 'Mathilde', 'Gale', '117 125 045 280', '033 24 552 58', 400000),
-	('Cowlas', 'Layne', 'Bartelt', '117 125 075 280', '033 24 552 58', 400000),
-	('Coryndon', 'Blanch', 'Mcbride', '117 125 028 280', '033 24 552 58', 400000),
-	('Normanvell', 'Dominica', 'Fuller', '117 125 025 280', '033 24 552 58', 400000),
-	('Sharrard', 'Nerte', 'Dexter', '117 125 065 280', '033 24 552 58', 400000),
-	('Caddens', 'Siusan', 'Banding', '117 125 027 280', '033 24 552 58', 400000),
-	('Woolaghan', 'Magdalen', 'Dixon', '117 125 025 280', '033 24 552 58', 400000),
-	('Kapiloff', 'Teena', '7th', '117 125 025 260', '033 24 552 58', 400000),
-	('Tingey', 'Trenna', 'Harbort', '117 125 025 280', '033 24 552 58', 400000),
-	('Ambrogi', 'Gabbi', 'Reindahl', '117 125 025 280', '033 24 552 58', 400000),
-	('Pilcher', 'Savina', 'Meadow Vale', '117 125 035 280', '033 24 552 58', 400000),
-	('Diddams', 'Neile', 'Sloan', '117 125 025 270', '033 24 552 58', 400000),
-	('Sawood', 'Ronnie', 'Summerview', '117 125 035 280', '033 24 552 58', 400000),
-	('Coultous', 'Candace', 'Golf View', '117 125 025 280', '033 24 552 58', 400000),
-	('Treves', 'Lurleen', 'Algoma', '117 125 025 210', '033 24 552 58', 400000),
-	('Rains', 'Coletta', 'Pearson', '117 125 125 260', '033 24 552 58', 400000),
-	('Sibson', 'Krissy', 'Paget', '117 125 025 285', '033 24 552 58', 400000),
-	('Cutajar', 'Nessi', 'Maryland', '117 125 025 280', '033 24 552 58', 400000),
-	('Croxon', 'Ilse', 'Browning', '117 125 075 280', '033 24 552 58', 400000),
-	('Farrens', 'Ursula', 'Alpine', '117 127 025 280', '033 24 552 58', 400000),
-	('Masurel', 'Elysha', 'West', '117 125 028 280', '033 24 552 58', 400000),
-	('Balffye', 'Yolande', 'Vermont', '117 125 065 780', '033 24 552 58', 400000),
-	('Swalowe', 'Terry', 'Corben', '117 125 075 290', '033 24 552 58', 400000),
-	('Wortman', 'Selma', 'Laurel', '117 125 075 220', '033 24 552 58', 400000);
-
-
--- CHAUFFEUR TABLE
-insert into chauffeur (nom_chauffeur, prenom_chauffeur, adresse_chauffeur, cin_chauffeur, telephone_chauffeur, salaire_chauffeur) values
-	('Kallo', 'Abraham', 'ITR 30 Ivato', '124 135 070 110', '0322891796', 400000),
-	('Toky', 'Rabeson', 'IJ 350 Iavoloha', '117 024 010 200', '0343151700', 350000),
-	('Claudio', 'Ramarolahy', 'OTR 2256 Ivandry', '125 025 150 001', '0336245422', 350000),
-	('Adolf', 'Manjaka', 'AKG 25 Ivato', '114 125 010 110', '0322818796', 400000),
-	('Teo', 'Rakoto', 'LOT 300 Analakely', '127 025 110 260', '0346971700', 500000)
-	('Hanlon', 'Michell', 'Monica', '119 124 025 254', '037 24 408 60', 502000)
-	('Simmonett', 'Sharl', 'Shoshone', '118 120 025 292', '035 24 304 81', 555000)
-	('Renahan', 'Kimmi', 'Old Shore', '118 153 025 226', '032 24 059 02', 536000)
-	('Domanski', 'Cherilyn', 'Maple Wood', '116 186 025 259', '034 24 486 68', 537000)
-	('Scurrey', 'Roselia', 'Charing Cross', '116 102 025 211', '030 24 930 98', 561000)
-	('Pavlata', 'Enriqueta', 'Anhalt', '115 188 025 255', '034 24 510 20', 591000)
-	('Gilhouley', 'Doralyn', 'Wayridge', '117 122 025 273', '039 24 415 33', 510000)
-	('McFie', 'Nelia', 'Summer Ridge', '113 149 025 260', '032 24 385 77', 513000)
-	('Bugbee', 'Milli', 'Brickson Park', '111 111 025 223', '033 24 634 04', 519000)
-	('Vallentin', 'Lizette', 'Marcy', '114 119 025 260', '030 24 929 77', 597000)
-	('Dibsdale', 'Giuditta', 'Armistice', '115 145 025 270', '032 24 211 72', 532000)
-	('Carne', 'Helsa', 'Clyde Gallagher', '110 174 025 290', '038 24 351 05', 571000)
-	('Minchindon', 'Zita', 'Evergreen', '117 121 025 204', '034 24 484 69', 518000)
-	('Lambe', 'Sella', 'Barby', '119 175 025 222', '032 24 773 09', 591000)
-	('Furmston', 'Anestassia', 'Nancy', '111 108 025 288', '033 24 126 98', 523000)
-	('Geale', 'Nelly', 'Lukken', '115 117 025 265', '032 24 447 00', 510000)
-	('Gowen', 'Gelya', 'International', '118 136 025 282', '035 24 982 84', 581000)
-	('Caldwall', 'Rachele', 'Talmadge', '117 114 025 206', '036 24 466 04', 574000)
-	('Coatts', 'Margie', 'Dennis', '118 108 025 259', '037 24 676 61', 555000)
-	('Jakolevitch', 'Tiena', 'Bellgrove', '117 117 025 268', '031 24 909 84', 562000)
-	('Gabotti', 'Meggie', 'West', '119 143 025 267', '037 24 835 44', 517000)
-	('Suermeiers', 'Zita', 'Farwell', '116 162 025 243', '039 24 134 48', 504000)
-	('Coomes', 'Bathsheba', 'Russell', '117 153 025 279', '030 24 623 61', 527000)
-	('McGaraghan', 'Charmion', 'Ridgeway', '115 122 025 207', '036 24 044 17', 578000)
-	('Bielfeldt', 'Chantalle', 'Chinook', '113 104 025 284', '033 24 087 16', 593000)
-	('Hiskey', 'Janette', 'Orin', '118 136 025 222', '036 24 432 99', 586000)
-	('Tabourel', 'Christian', 'Stoughton', '117 149 025 245', '037 24 545 43', 517000)
-	('Roseborough', 'Lydia', 'Union', '110 192 025 287', '034 24 366 27', 585000)
-	('Clerke', 'Janina', 'Daystar', '118 109 025 212', '033 24 220 15', 567000)
-	('Hallihane', 'Gail', 'Saint Paul', '117 145 025 215', '035 24 201 51', 550000)
-	('Gilkes', 'Wilmette', 'Arkansas', '114 176 025 221', '036 24 431 49', 577000)
-	('Bilovus', 'Keri', 'Hintze', '117 183 025 242', '032 24 101 30', 530000)
-	('Plows', 'Ibbie', 'Melby', '119 192 025 291', '035 24 210 86', 586000)
-	('Liversedge', 'Cate', 'Kipling', '119 101 025 213', '033 24 686 11', 535000)
-	('Skellorne', 'Tiff', 'Marquette', '118 134 025 251', '036 24 133 87', 537000)
-	('Cowser', 'Francyne', 'Saint Paul', '116 175 025 279', '038 24 911 33', 554000)
-	('Bernardon', 'Laurena', 'Warner', '111 168 025 278', '030 24 139 94', 539000)
-	('Pfleger', 'Arlene', 'Londonderry', '116 159 025 216', '036 24 015 85', 582000)
-	('Sapey', 'Aila', 'Spaight', '113 111 025 257', '038 24 538 36', 589000)
-	('Peepall', 'Jaquelin', 'Calypso', '116 189 025 268', '034 24 952 97', 573000)
-	('Lessmare', 'Susi', 'Melvin', '116 133 025 232', '037 24 686 81', 501000)
-	('Joss', 'Caitlin', 'Eggendart', '116 116 025 234', '034 24 104 21', 555000)
-	('Peak', 'Dianna', 'Crescent Oaks', '114 102 025 258', '034 24 311 91', 500000)
-	('Littlejohns', 'Lilah', 'Hoard', '110 172 025 218', '036 24 154 36', 586000)
-	('Fishby', 'Gloria', 'Springview', '112 105 025 211', '030 24 022 87', 582000)
-	('Henzley', 'Hedwig', 'Hazelcrest', '117 197 025 220', '034 24 927 16', 502000)
-	('Collisson', 'Gerhardine', 'Sullivan', '114 155 025 281', '038 24 948 16', 515000)
-	('Spincke', 'Ceil', 'Mccormick', '111 144 025 247', '036 24 781 49', 508000)
-	('Bredbury', 'Ajay', 'Truax', '118 101 025 238', '030 24 407 29', 567000)
-	('Tierney', 'Raf', 'Mallory', '112 143 025 222', '038 24 315 37', 524000);
-
-
-\c soavadia;
 
 -- CLIENT TABLE
 insert into client (nom, prenom, telephone, cin) values 
@@ -1132,3 +1033,102 @@ insert into saison(evenement,coef_saison) values
 	(paques,1.2),
 	(fete_independance,1.1),
 	(grande_vacance,1.2);
+	
+-- RECEPTIONISTE TABLE
+insert into receptionniste (nom_receptionniste, prenom_receptionniste, adresse_receptionniste, cin_receptionniste, telephone_receptionniste, salaire_receptionniste) values
+	('Ana', 'Johns', 'ITR 130 Arivonimamo', '124 135 070 110', '0342891796', 300000),
+	('Pauline', 'Roso', 'IKT 1300 Imerintsiatosika', '125 135 100 090', '0343094896', 350000),
+	('Kone', 'Andrianjarisoa', 'IJ 89 Itaosy', '125 025 100 260', '0321994896', 250000),
+	('Cara', 'Arinalamalala', 'LOT 125 Itaosy', '117 125 020 290', '032702094896', 400000),
+	('Sophie', 'Ramarolahy', 'ITE 89 Itaosy', '125 025 100 260', '0321004856', 250000),
+	('Vickers', 'Gladys', 'Cottonwood', '117 125 025 280', '033 24 552 58', 400000),
+	('Wilds', 'Selia', 'Basil', '117 125 025 281', '033 24 552 58', 400000),
+	('Downes', 'Leora', 'Sloan', '117 125 025 282', '033 24 552 58', 400000),
+	('Keedwell', 'Chad', 'Mayer', '117 125 025 283', '033 24 552 58', 400000),
+	('Mingard', 'Tiffi', 'Bluestem', '117 125 025 284', '033 24 552 58', 400000),
+	('Coneley', 'Aubrette', '4th', '117 125 025 285', '033 24 552 58', 400000),
+	('Feaks', 'Mathilde', 'Gale', '117 125 045 280', '033 24 552 58', 400000),
+	('Cowlas', 'Layne', 'Bartelt', '117 125 075 280', '033 24 552 58', 400000),
+	('Coryndon', 'Blanch', 'Mcbride', '117 125 028 280', '033 24 552 58', 400000),
+	('Normanvell', 'Dominica', 'Fuller', '117 125 025 280', '033 24 552 58', 400000),
+	('Sharrard', 'Nerte', 'Dexter', '117 125 065 280', '033 24 552 58', 400000),
+	('Caddens', 'Siusan', 'Banding', '117 125 027 280', '033 24 552 58', 400000),
+	('Woolaghan', 'Magdalen', 'Dixon', '117 125 025 280', '033 24 552 58', 400000),
+	('Kapiloff', 'Teena', '7th', '117 125 025 260', '033 24 552 58', 400000),
+	('Tingey', 'Trenna', 'Harbort', '117 125 025 280', '033 24 552 58', 400000),
+	('Ambrogi', 'Gabbi', 'Reindahl', '117 125 025 280', '033 24 552 58', 400000),
+	('Pilcher', 'Savina', 'Meadow Vale', '117 125 035 280', '033 24 552 58', 400000),
+	('Diddams', 'Neile', 'Sloan', '117 125 025 270', '033 24 552 58', 400000),
+	('Sawood', 'Ronnie', 'Summerview', '117 125 035 280', '033 24 552 58', 400000),
+	('Coultous', 'Candace', 'Golf View', '117 125 025 280', '033 24 552 58', 400000),
+	('Treves', 'Lurleen', 'Algoma', '117 125 025 210', '033 24 552 58', 400000),
+	('Rains', 'Coletta', 'Pearson', '117 125 125 260', '033 24 552 58', 400000),
+	('Sibson', 'Krissy', 'Paget', '117 125 025 285', '033 24 552 58', 400000),
+	('Cutajar', 'Nessi', 'Maryland', '117 125 025 280', '033 24 552 58', 400000),
+	('Croxon', 'Ilse', 'Browning', '117 125 075 280', '033 24 552 58', 400000),
+	('Farrens', 'Ursula', 'Alpine', '117 127 025 280', '033 24 552 58', 400000),
+	('Masurel', 'Elysha', 'West', '117 125 028 280', '033 24 552 58', 400000),
+	('Balffye', 'Yolande', 'Vermont', '117 125 065 780', '033 24 552 58', 400000),
+	('Swalowe', 'Terry', 'Corben', '117 125 075 290', '033 24 552 58', 400000),
+	('Wortman', 'Selma', 'Laurel', '117 125 075 220', '033 24 552 58', 400000);
+
+
+-- CHAUFFEUR TABLE
+insert into chauffeur (nom_chauffeur, prenom_chauffeur, adresse_chauffeur, cin_chauffeur, telephone_chauffeur, salaire_chauffeur) values
+	('Kallo', 'Abraham', 'ITR 30 Ivato', '124 135 070 110', '0322891796', 400000),
+	('Toky', 'Rabeson', 'IJ 350 Iavoloha', '117 024 010 200', '0343151700', 350000),
+	('Claudio', 'Ramarolahy', 'OTR 2256 Ivandry', '125 025 150 001', '0336245422', 350000),
+	('Adolf', 'Manjaka', 'AKG 25 Ivato', '114 125 010 110', '0322818796', 400000),
+	('Teo', 'Rakoto', 'LOT 300 Analakely', '127 025 110 260', '0346971700', 500000)
+	('Hanlon', 'Michell', 'Monica', '119 124 025 254', '037 24 408 60', 502000)
+	('Simmonett', 'Sharl', 'Shoshone', '118 120 025 292', '035 24 304 81', 555000)
+	('Renahan', 'Kimmi', 'Old Shore', '118 153 025 226', '032 24 059 02', 536000)
+	('Domanski', 'Cherilyn', 'Maple Wood', '116 186 025 259', '034 24 486 68', 537000)
+	('Scurrey', 'Roselia', 'Charing Cross', '116 102 025 211', '030 24 930 98', 561000)
+	('Pavlata', 'Enriqueta', 'Anhalt', '115 188 025 255', '034 24 510 20', 591000)
+	('Gilhouley', 'Doralyn', 'Wayridge', '117 122 025 273', '039 24 415 33', 510000)
+	('McFie', 'Nelia', 'Summer Ridge', '113 149 025 260', '032 24 385 77', 513000)
+	('Bugbee', 'Milli', 'Brickson Park', '111 111 025 223', '033 24 634 04', 519000)
+	('Vallentin', 'Lizette', 'Marcy', '114 119 025 260', '030 24 929 77', 597000)
+	('Dibsdale', 'Giuditta', 'Armistice', '115 145 025 270', '032 24 211 72', 532000)
+	('Carne', 'Helsa', 'Clyde Gallagher', '110 174 025 290', '038 24 351 05', 571000)
+	('Minchindon', 'Zita', 'Evergreen', '117 121 025 204', '034 24 484 69', 518000)
+	('Lambe', 'Sella', 'Barby', '119 175 025 222', '032 24 773 09', 591000)
+	('Furmston', 'Anestassia', 'Nancy', '111 108 025 288', '033 24 126 98', 523000)
+	('Geale', 'Nelly', 'Lukken', '115 117 025 265', '032 24 447 00', 510000)
+	('Gowen', 'Gelya', 'International', '118 136 025 282', '035 24 982 84', 581000)
+	('Caldwall', 'Rachele', 'Talmadge', '117 114 025 206', '036 24 466 04', 574000)
+	('Coatts', 'Margie', 'Dennis', '118 108 025 259', '037 24 676 61', 555000)
+	('Jakolevitch', 'Tiena', 'Bellgrove', '117 117 025 268', '031 24 909 84', 562000)
+	('Gabotti', 'Meggie', 'West', '119 143 025 267', '037 24 835 44', 517000)
+	('Suermeiers', 'Zita', 'Farwell', '116 162 025 243', '039 24 134 48', 504000)
+	('Coomes', 'Bathsheba', 'Russell', '117 153 025 279', '030 24 623 61', 527000)
+	('McGaraghan', 'Charmion', 'Ridgeway', '115 122 025 207', '036 24 044 17', 578000)
+	('Bielfeldt', 'Chantalle', 'Chinook', '113 104 025 284', '033 24 087 16', 593000)
+	('Hiskey', 'Janette', 'Orin', '118 136 025 222', '036 24 432 99', 586000)
+	('Tabourel', 'Christian', 'Stoughton', '117 149 025 245', '037 24 545 43', 517000)
+	('Roseborough', 'Lydia', 'Union', '110 192 025 287', '034 24 366 27', 585000)
+	('Clerke', 'Janina', 'Daystar', '118 109 025 212', '033 24 220 15', 567000)
+	('Hallihane', 'Gail', 'Saint Paul', '117 145 025 215', '035 24 201 51', 550000)
+	('Gilkes', 'Wilmette', 'Arkansas', '114 176 025 221', '036 24 431 49', 577000)
+	('Bilovus', 'Keri', 'Hintze', '117 183 025 242', '032 24 101 30', 530000)
+	('Plows', 'Ibbie', 'Melby', '119 192 025 291', '035 24 210 86', 586000)
+	('Liversedge', 'Cate', 'Kipling', '119 101 025 213', '033 24 686 11', 535000)
+	('Skellorne', 'Tiff', 'Marquette', '118 134 025 251', '036 24 133 87', 537000)
+	('Cowser', 'Francyne', 'Saint Paul', '116 175 025 279', '038 24 911 33', 554000)
+	('Bernardon', 'Laurena', 'Warner', '111 168 025 278', '030 24 139 94', 539000)
+	('Pfleger', 'Arlene', 'Londonderry', '116 159 025 216', '036 24 015 85', 582000)
+	('Sapey', 'Aila', 'Spaight', '113 111 025 257', '038 24 538 36', 589000)
+	('Peepall', 'Jaquelin', 'Calypso', '116 189 025 268', '034 24 952 97', 573000)
+	('Lessmare', 'Susi', 'Melvin', '116 133 025 232', '037 24 686 81', 501000)
+	('Joss', 'Caitlin', 'Eggendart', '116 116 025 234', '034 24 104 21', 555000)
+	('Peak', 'Dianna', 'Crescent Oaks', '114 102 025 258', '034 24 311 91', 500000)
+	('Littlejohns', 'Lilah', 'Hoard', '110 172 025 218', '036 24 154 36', 586000)
+	('Fishby', 'Gloria', 'Springview', '112 105 025 211', '030 24 022 87', 582000)
+	('Henzley', 'Hedwig', 'Hazelcrest', '117 197 025 220', '034 24 927 16', 502000)
+	('Collisson', 'Gerhardine', 'Sullivan', '114 155 025 281', '038 24 948 16', 515000)
+	('Spincke', 'Ceil', 'Mccormick', '111 144 025 247', '036 24 781 49', 508000)
+	('Bredbury', 'Ajay', 'Truax', '118 101 025 238', '030 24 407 29', 567000)
+	('Tierney', 'Raf', 'Mallory', '112 143 025 222', '038 24 315 37', 524000);
+
+
