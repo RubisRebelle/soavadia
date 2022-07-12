@@ -1,8 +1,8 @@
 # SOAVADIA
 
-**SOAVADIA** is a transport business company that has a database to manage its employees, clients, travels...
+**SOAVADIA** is a transport business company that has a database to manage its employees, clients, travels,drivers...
 
-The database contains much information such as the Clients' information, the employees of the company, the company's Vehicles, the departure and the destination of the trip, and much more.
+The database contains much informations such as the Client's information, the employees of the company, the company's Vehicles, the departure and the destination of the trip, and much more.
 
 ## Model
 This is the database model schema of this project
